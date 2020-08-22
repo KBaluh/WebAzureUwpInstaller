@@ -59,7 +59,7 @@ namespace WebAzureUwpInstaller
                 ServeUnknownFileTypes = true
             });
 
-            //app.UseDirectoryBrowser();
+            app.UseDirectoryBrowser();
 
             app.UseRouting();
 
